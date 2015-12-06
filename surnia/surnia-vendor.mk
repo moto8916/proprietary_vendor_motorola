@@ -12,13 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    MotGeoFenceSvc \
-    TimeService \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook \
-    libHevcSwDecoder
-
 $(call inherit-product, vendor/motorola/surnia/surnia-vendor-blobs.mk)

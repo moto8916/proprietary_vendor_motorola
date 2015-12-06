@@ -12,4 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/motorola/osprey/osprey-vendor-blobs.mk)
+PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    MotGeoFenceSvc \
+    TimeService \
+    qcrilmsgtunnel \
+    qcnvitems \
+    qcrilhook \
+    libHevcSwDecoder
+
+$(call inherit-product, vendor/motorola/msm8916-common/msm8916-common-vendor-blobs.mk)
