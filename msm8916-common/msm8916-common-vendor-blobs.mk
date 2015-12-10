@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/motorola/msm8916-common/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/msm8916-common/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/msm8916-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/msm8916-common/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \

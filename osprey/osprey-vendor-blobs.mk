@@ -15,6 +15,7 @@
 #Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat
