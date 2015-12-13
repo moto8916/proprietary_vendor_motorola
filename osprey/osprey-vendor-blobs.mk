@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#Prebuilt libraries that are needed to build open-source libraries
-
 PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \

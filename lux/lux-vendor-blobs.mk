@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/lux/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/lux/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/lux/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/motorola/lux/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/motorola/lux/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/etc/firmware/florida-dsp2-aov-frontend.wmfw \
     vendor/motorola/lux/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/etc/firmware/florida-dsp3-aov-control.wmfw \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
@@ -44,11 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat:system/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat \
     vendor/motorola/lux/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/lux/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
     vendor/motorola/lux/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/lux/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/lux/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/lux/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/lux/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/lux/proprietary/lib/libjscore.so:system/lib/libjscore.so \
@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/lux/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/lux/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/lux/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd_camcorder.so:system/vendor/lib/libactuator_lc898212xd_camcorder.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd_camera.so:system/vendor/lib/libactuator_lc898212xd_camera.so \
@@ -128,4 +127,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/lux/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/motorola/lux/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/motorola/lux/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so
