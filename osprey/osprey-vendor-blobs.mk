@@ -17,6 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat \
