@@ -48,6 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/lux/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
+    vendor/motorola/lux/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
+    vendor/motorola/lux/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/lux/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/lux/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/lux/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
