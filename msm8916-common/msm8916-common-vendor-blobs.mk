@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
