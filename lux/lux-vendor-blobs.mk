@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/motorola/lux/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/motorola/lux/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
@@ -37,8 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
+    vendor/motorola/lux/proprietary/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat:system/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat:system/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat \
-    vendor/motorola/lux/proprietary/etc/firmware/synaptics-tdi-s3346lt-15061702-1debdd-lux.tdat:system/etc/firmware/synaptics-tdi-s3346lt-15061702-1debdd-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat:system/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat \
     vendor/motorola/lux/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
