@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/motorola/lux/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/motorola/lux/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0045_Generic_I2C_NCD_Unsigned_configdata.ncd \
-    vendor/motorola/lux/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/etc/firmware/florida-dsp2-aov-frontend.wmfw \
-    vendor/motorola/lux/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/etc/firmware/florida-dsp3-aov-control.wmfw \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
     vendor/motorola/lux/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
