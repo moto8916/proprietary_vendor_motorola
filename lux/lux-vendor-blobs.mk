@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat:system/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat:system/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat:system/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat \
-    vendor/motorola/lux/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/motorola/lux/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/lux/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
