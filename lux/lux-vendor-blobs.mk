@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -41,6 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat:system/etc/firmware/synaptics-lgd-s332u-15102102-1fb0fc-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat:system/etc/firmware/synaptics-s3346b-15011402-1b5aff-lux.tdat \
     vendor/motorola/lux/proprietary/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat:system/etc/firmware/synaptics-tdi-s3346lt-15063001-1debdd-lux.tdat \
+    vendor/motorola/lux/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/motorola/lux/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/motorola/lux/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/motorola/lux/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
@@ -56,8 +59,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/lux/proprietary/lib/libmmcamera_lux_standardization.so:system/lib/libmmcamera_lux_standardization.so \
     vendor/motorola/lux/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/lux/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/lux/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/lux/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/lux/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd_camcorder.so:system/vendor/lib/libactuator_lc898212xd_camcorder.so \
     vendor/motorola/lux/proprietary/vendor/lib/libactuator_lc898212xd_camera.so:system/vendor/lib/libactuator_lc898212xd_camera.so \
