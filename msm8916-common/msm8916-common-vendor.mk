@@ -17,6 +17,17 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
-    libHevcSwDecoder
+    libHevcSwDecoder \
+    keystore.msm8916.so
+
+# TWRP
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(OUT)/system/bin/qseecomd
+PRODUCT_COPY_FILES += \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libdiag.so:recovery/root/vendor/lib/libdiag.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmfs.so:recovery/root/vendor/lib/libdrmfs.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmtime.so:recovery/root/vendor/lib/libdrmtime.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:recovery/root/vendor/lib/libQSEEComAPI.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/librpmb.so:recovery/root/vendor/lib/librpmb.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libssd.so:recovery/root/vendor/lib/libssd.so
 
 $(call inherit-product, vendor/motorola/msm8916-common/msm8916-common-vendor-blobs.mk)
