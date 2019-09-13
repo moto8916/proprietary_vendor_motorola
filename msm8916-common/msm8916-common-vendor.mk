@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/motorola/msm8916-common/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:system/vendor/framework/QtiTelephonyServicelibrary.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/framework/imscmd.jar:system/vendor/framework/imscmd.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/framework/rcsimssettings.jar:system/vendor/framework/rcsimssettings.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
@@ -214,13 +213,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
-    QtiTelephonyService \
     TimeService \
-    ims \
     qcrilmsgtunnel \
+    ims \
     imssettings \
     qcnvitems \
-    qti-telephony-common \
     com.qualcomm.qti.imscmservice@1.0-java \
     imscmlibrary \
     qcrilhook \
